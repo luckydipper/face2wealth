@@ -183,6 +183,23 @@ body {
     height: 27.262px;
 } */
 
+.jocoding {
+    color: #c52525;
+}
+
+.jocoding:hover {
+    color: #c05858;
+    text-decoration: none;
+}
+
+.list-group{
+  width: 280px;
+}
+
+.list-group-item:first-child {
+  background-color: #e5eee8;
+}
+
 .upload {
     width: 20%;
 }
@@ -211,7 +228,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+  background-color: rgba(74, 92, 68, 0.2);
 }
 .흙수저-bar {
   position: absolute;
@@ -219,24 +236,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
-}
-.흙수저-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
-}
-.흙수저-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+  background-color: rgb(21, 27, 18);
 }
 .다이아-box {
   position: absolute;
@@ -279,7 +279,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+  background-color: rgba(161, 120, 135, 0.2);
 }
 .은수저-bar {
   position: absolute;
@@ -287,7 +287,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+  background-color: rgb(192, 192, 192);
 }
 .percent-text {
   font-size: 1rem;
@@ -311,17 +311,10 @@ body {
     font-size: 1.5rem;
 }
 .흙수저-animal-title {
-    color: #3ba363;
+    color: #437072;
 }
 .흙수저-animal-celeb {
-    color: #3ba363;
-    font-size: 1.2rem;
-}
-.흙수저-animal-title {
-    color: #3ba363;
-}
-.흙수저-animal-celeb {
-    color: #3ba363;
+    color: #437072;
     font-size: 1.2rem;
 }
 .금수저-animal-title {
@@ -339,10 +332,10 @@ body {
     font-size: 1.2rem;
 }
 .은수저-animal-title {
-    color: #e56995;
+    color: #7e7575;
 }
 .은수저-animal-celeb {
-    color: #e56995;
+    color: #7e7575;
     font-size: 1.2rem;
 }
 
