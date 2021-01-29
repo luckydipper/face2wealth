@@ -1,19 +1,21 @@
-from flask import Flask
+from flask import Flask, render_template
 import codecs
 application = Flask(__name__)
 
-# with open("index.html",'r') as html:
-#     data = codecs.open(html)
-#     print(data.read)
+
+@application.route("/AI", methods=["GET"])
+def index():
+    return render_template("index.html")
 
 
-f=codecs.open("index.html", 'r')
-html = f.read()
+#dynamic URL setting
+# @application.route('/user/<user_name>/<int:user_id>')
+# def user(user_name, user_id):
+#     return f'Hello, {user_name}({user_id})!'
 
-
-@application.route("/")
-def hello():
-    return html
+#in template(html), use python 
+#{%if for%} or {{var}}
 
 if __name__ == "__main__":
-    application.run(host='0.0.0.0')
+    port= int(9000)
+    application.run(host="0.0.0.0", port=port, debug = True) #'local 0.0.0.0'
