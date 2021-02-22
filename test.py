@@ -1,10 +1,11 @@
 from flask import Flask, render_template
-import codecs
+#import codecs
 application = Flask(__name__)
 
 
-@application.route("/AI", methods=["GET"])
+@application.route("/", methods=["GET"])
 def index():
+    #print(render_template("index.html"))
     return render_template("index.html")
 
 
